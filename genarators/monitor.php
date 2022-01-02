@@ -1,6 +1,5 @@
 
 <?php
-
    $article=$_POST['article'];
    $autors=$_POST['autors'];
    $key=$_POST['keyword'];
@@ -11,10 +10,6 @@
    $conclusion=$_POST['conclusion'];
    $reference=$_POST['reference'];
 ?>
-
-
-
-
 
 <?php
 //--->get app url > start
@@ -46,7 +41,7 @@ header("Access-Control-Allow-Origin: *");
 <html>
 <head>
 	 
-	<title> Template </title>
+	<title> check list and download </title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -210,13 +205,6 @@ header("Access-Control-Allow-Origin: *");
  
  
 	});
-	
-	
-	
-	
-	
-	
-	
 	
 	</script>
 
